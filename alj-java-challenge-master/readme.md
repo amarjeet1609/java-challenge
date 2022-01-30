@@ -5,8 +5,8 @@
 
 Application (with the embedded H2 database) is ready to be used ! You can access the url below for testing it :
 
-- Swagger UI : http://localhost:8080/swagger-ui.html
-- H2 UI : http://localhost:8080/h2-console
+- Swagger UI : http://localhost:8082/swagger-ui.html
+- H2 UI : http://localhost:8082/h2-console
 
 > Don't forget to set the `JDBC URL` value as `jdbc:h2:mem:testdb` for H2 UI.
 
@@ -45,8 +45,22 @@ Application (with the embedded H2 database) is ready to be used ! You can access
 
 #### Your experience in Java
 
-Please let us know more about your Java experience in a few sentences. For example:
+Please let us know more about your Java experience in a few sentences.
+- I have over 4 years experience in Java and I started to use Spring Boot from past 2 years
+- I have hands on experience in java technologies like Rest API, Soap Services, MicroServices, JMS, etc. 
 
-- I have 3 years experience in Java and I started to use Spring Boot from last year
-- I'm a beginner and just recently learned Spring Boot
-- I know Spring Boot very well and have been using it for many years
+
+### Updated Source code by Amarjeet ###
+- Test has been implemented using Junit and Mockito
+- Syntax has been modified as required
+- JWT Bearer Token has been implemented
+- Caching logic has been added and cached the data for better performance.
+- Readme.md file has been modified and Comments/Logs has been added in the Source code.
+- Bugs has been fixed when found.
+
+### Instruction to start the Application ###
+- Tomcat Port has been changed to 8082, So please change the port while starting Swagger/H2 while testing.
+- Use User/pass => testuser/testpassword as authentication credential to generate Bearer Token. 
+  Authorize your endpoints by clicking Authenticate button in Swagger UI and pass the API Key : Bearer <generated token>
+
+ 
